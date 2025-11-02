@@ -1,0 +1,70 @@
+<html><head>
+<title>SESA Application Form Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+<h1>SESA Application Form</h1>
+<form name="f1" action="Four.html">
+<div class="form-group">
+<label for="name">Name:</label>
+<input type="name" id="name" name="t1" required placeholder="eg. Sundar Pichai">
+</div>
+
+<div class="form-group">
+<label for="PRN">PRN:</label>
+<input type="number" id="PRN" required name="t2" range=1to+N placeholder="eg. 1234567890"></div>
+<br>
+<div class="form-group">
+<label for="year">Year:</label>
+<select id="year" name="s1" required height=30px width=200px>
+<option value="" disabled selected hidden>Select Year</option>
+<option>First Year</option>
+<option>Second Year</option>
+<option>Third Year</option>
+<option>Final Year</option>
+</select>
+</div>
+<br>
+<div class="form-group">
+<label for="branch">Branch:</label>
+<select id="branch" name="s2" required>
+<option value="" disabled selected hidden>Select Branch</option>
+<option>Computer Engineering</option>
+<option>Information Technology</option>
+<option>CSE-AIML</option>
+<option>CSE-AIDS</option>
+<option>CSE-AI</option>
+<option>CE-SE</option>
+<option>CS-DS</option>
+<option>CS-IOT</option>
+<option>Mechanical</option>
+<option>Civil</option>
+<option>Instumentation</option>
+</select>
+</div>
+<br>
+<div class="form-group">
+<label for="div">Division:</label>
+<input type="text" id="div" name="t3" required placeholder="eg. A,B,C,D"></div>
+<br>
+<div class="form-group">
+<label for="whyjoin">Why do you want to join SESA?</label>
+<textarea class="s" required id="whyjoin" placeholder="eg. I want to network with seniors and improve my software skills..."></textarea>
+</div><br><br>
+<div class="form-group">
+<label for="linkedin">LinkedIn Profile:</label>
+<input type="url" id="linkedin" name="linkedin" placeholder="https://www.linkedin.com/in/yourname">
+</div>
+<br>
+<div class="form-group">
+<label for="email">Email ID:</label>
+<input type="email" id="email" required name="t4" placeholder="your-email@example.com">
+</div>
+<br>
+<button type="submit" class="B1 btn">SUBMIT</button>
+<button type="reset" class="B2 btn">CLEAR</button>
+</form>
+</div>
+</body>
+</html>

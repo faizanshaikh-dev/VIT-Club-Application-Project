@@ -1,0 +1,89 @@
+
+body {
+           font-family:Cambria;
+           text-align:center; 
+           font-size:19px;
+           font-weight:100;
+           background-color:#f0f2f5;
+         }
+.container {
+      width: 90%;
+      max-width: 960px;
+      margin: 30px auto;
+      background-color:#ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}         
+.btn {
+           border-radius:20px; 
+font-weight:bold; 
+border:none; 
+font-size:25px; 
+height:40px; 
+font-family:Cambria; 
+cursor:pointer; 
+transition:background-color 0.3s, color 0.3s, transform 0.3s, text-decoration 0.3s;
+}
+.btn:hover {
+                    transform:scale(1.1);
+}
+.B {
+     border-radius:100px;
+ background-color:#87CDEE; 
+margin-left:0px; 
+font-size:22px; 
+height:35px;
+width:110px; 
+color:white;
+}
+.B:hover {
+      color:#0147AB;
+}
+.B1 {
+        color: #98FB98;
+width:120px; 
+background-color:#50C878;
+}
+.B1:hover {
+      color:#00563B;
+}
+.B2 {
+        margin-left:70px;
+ width:110px; 
+background-color:pink; 
+color:crimson;
+}
+.B2:hover {
+      background-color:#E52B50;
+      color:maroon;
+}
+.join {
+          font-weight:bold;
+ font-size:20px;
+ color:black;
+ font-family:"Times New Roman";
+ text-decoration:none;
+ cursor:pointer;
+ transition:color 0.3s, text-decoration 0.3s, font-size 0.3s; 
+}
+.join:hover {
+                    color:blue; text-decoration:underline; font-size:23px;
+}
+.t {
+height:150px; width:500px; resize:vertical;
+}
+.s {
+      resize:vertical; height:75;
+}
+.form-group {
+      margin-bottom:20px;
+}
+form label {
+      display: block; text-align: left; font-weight:bold; font-size: 16px; margin-bottom:5px;
+}
+input[type="text"], input[type="name"], input[type="number"], input[type="email"], select, textarea, input[type="url"] {
+      width:100%; padding: 12px; font-size: 16px; font-family: Cambria, sans-serif;
+      border: 1px solid #ccc; border-radius: 5px;
+      box-sizing: border-box;
+}
