@@ -16,4 +16,4 @@ A personal project to build a functional, multi-page application portal inspired
 ## 💡 Project Goal
 This was a personal challenge to apply my front-end skills to a real-world case study. I'm sharing it to connect with other student developers and get feedback! 
 
-*You can see a live demo here: [LINK WILL GO HERE]*
+*You can see a live demo here: [https://faizanshaikh-dev.github.io/VIT-Club-Application-Project/]*
